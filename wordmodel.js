@@ -31,6 +31,8 @@ const Word = mongoose.model('Word',
 // .catch(error => console.log(error))
 
 //DELETE
-Word.findByIdAndDelete('5f64c2161262680769abb08b')
-.then(word => console.log(word))
-.catch(error => console.log(error))
+// Word.findByIdAndDelete('5f64c2161262680769abb08b')
+// .then(word => console.log(word))
+// .catch(error => console.log(error))
+
+module.exports = {Word}
